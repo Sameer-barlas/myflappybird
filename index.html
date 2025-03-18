@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Bird Game</title>
+  <link rel="stylesheet" href="./flappy.css">
+</head>
+<body>
+  <!-- Startup Page -->
+  <div id="startup-page">
+    <img src="./pngwing.com.png" alt="Flappy Bird">
+    <h1>Flappy Bird Game</h1>
+    <p>Select Interface:</p>
+    <button id="desktop-button">Desktop (Spacebar)</button>
+    <button id="mobile-button">Mobile (Touch)</button>
+  </div>
+
+  <!-- Level Selection Page -->
+  <div id="level-selection-page">
+    <h2>Select Difficulty Level:</h2>
+    <button id="easy-button">Easy</button>
+    <button id="medium-button">Medium</button>
+    <button id="hard-button">Hard</button>
+  </div>
+
+  <!-- Game Container -->
+  <div id="game-container">
+    <div id="bird"></div>
+    <div id="score">0</div>
+    <img id="happy-bird" src="./pngwing.com.png" alt="Happy Bird">
+    <div id="new-record">New Record!</div>
+  </div>
+
+  <!-- Controls and Side Panel -->
+  <div id="controls">
+    <img src="./pngwing.com.png" alt="Flappy Bird">
+    <button id="start-button">Start Game</button>
+    <button id="play-again-button">Play Again</button>
+    <div id="highest-score">Highest Score: 0</div>
+  </div>
+
+  <!-- Mobile Interface -->
+  <div id="mobile-interface">
+    <button id="flap-button">Flap</button>
+  </div>
+
+  <script src="./flappy.js" charset="UTF-8">
+  
+  </script>
+</body>
+</html>
